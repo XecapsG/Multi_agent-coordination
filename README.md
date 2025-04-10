@@ -3,11 +3,6 @@ Designed and trained a multi-agent system with Proximal Policy Optimization (PPO
 optimizing collision avoidance and destination reaching under varying weather and congestion conditions using PyTorch on a single GPU.
 
 
-
-
-
-
-
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/XecapsG/Multi_agent-coordination.git
@@ -17,7 +12,13 @@ git clone https://github.com/XecapsG/Multi_agent-coordination.git
 pip install -r requirements.txt
 
 ```
-### 3. Result
+
+### 3.Train
+```bash
+python main.py
+
+```
+### 4. Result
 ![2cars_reward](https://github.com/user-attachments/assets/d95b7e69-cbf8-478e-9e50-721bce2c6041)
 ![5cars_reward_converge2](https://github.com/user-attachments/assets/336a076c-4919-4fde-8dfe-6329cc6313e6)
 
